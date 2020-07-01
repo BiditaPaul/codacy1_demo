@@ -5,7 +5,7 @@ int main()
     char arr[20];
     int length=0;
     printf("Enter a string: ");
-    scanf("%s",arr);
+    gets(arr);
     while(*(arr+length)!='\0')
     {
         length = length + 1;
